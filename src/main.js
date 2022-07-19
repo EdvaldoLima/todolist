@@ -4,6 +4,9 @@ import './registerServiceWorker'
 import store from './store'
 import { makeServer } from '@/server'
 import { api } from '@/api'
+import '@/assets/scss/reset.scss'
+import '@/assets/css/index.css'
+import 'animate.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$api = api

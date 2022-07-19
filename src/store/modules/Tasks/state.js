@@ -1,4 +1,6 @@
 
-export const state = ({
+const state = () => ({
   tasks: []
 })
+
+export default state
